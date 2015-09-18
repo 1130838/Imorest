@@ -1,0 +1,35 @@
+h1 {
+  font-family: Helvetica, Arial;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+body, p{
+  font-family: Helvetica, Arial;
+}
+
+.well.custom-well-small { width: 500px; margin: 0 auto; }
+
+
+
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
