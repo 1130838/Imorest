@@ -82,9 +82,9 @@ angular.module('imorestApp')
       //  });
       //});
 
-      function showProducts(minPrice, maxPrice) {
-        $("#products li").hide().filter(function() {
-          var price = parseInt($(this).data("price"), 10);
+      function showProductsPrice(minPrice, maxPrice) {
+        $("#products .product").hide().filter(function() {
+          var price = parseInt($(this).data("price"), 10); //base decimal (10)
           return price >= minPrice && price <= maxPrice;
         }).show();
       }
@@ -93,14 +93,15 @@ angular.module('imorestApp')
         var options = {
           range: true,
           min: 0,
-          max: 500,
-          values: [50, 300],
+          max: 500000,
+          values: [50000, 100000],
+          step:100,
           slide: function(event, ui) {
             var min = ui.values[0],
               max = ui.values[1];
 
             $("#amount").val("$" + min + " - $" + max);
-            showProducts(min, max);
+            showProductsPrice(min, max);
           }
         }, min, max;
 
@@ -111,7 +112,42 @@ angular.module('imorestApp')
 
         $("#amount").val("$" + min + " - $" + max);
 
-        showProducts(min, max);
+        showProductsPrice(min, max);
+      });
+
+
+
+      function showProductsArea(minArea, maxArea) {
+        $("#products .product").hide().filter(function() {
+          var area = parseInt($(this).data("area"), 10); //base decimal (10)
+          return area >= minArea && area <= maxArea;
+        }).show();
+      }
+
+      $(function() {
+        var options = {
+          range: true,
+          min: 0,
+          max: 1000,
+          values: [10, 100],
+          step:1,
+          slide: function(event, ui) {
+            var min = ui.values[0],
+              max = ui.values[1];
+
+            $("#surface").val(min +" m2 "+ max + " m2");
+            showProductsArea(min, max);
+          }
+        }, min, max;
+
+        $("#slider-range_surface").slider(options);
+
+        min = $("#slider-range_surface").slider("values", 0);
+        max = $("#slider-range_surface").slider("values", 1);
+
+        $("#surface").val(min +" m2 "+ max + " m2");
+
+        showProductsArea(min, max);
       });
 
 
