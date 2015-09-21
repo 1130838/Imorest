@@ -49,16 +49,6 @@
                 </select>
               </div>
 
-              <!--// ADDRESS SELECTOR-->
-              <div class="container-fluid">
-                <label for="input_address"> Address:</label>
-                <!--IMPORTANT working -->
-                <select name="address" id="input_address" class="form-control"
-                        data-ng-model="addressFilter"
-                        ng-options="category.address for category in awesomeRealEstates | unique:'address'">
-                </select>
-              </div>
-
 
               <!--// TYPE SELECTOR-->
               <div class="container-fluid">
@@ -70,17 +60,40 @@
                 </select>
               </div>
 
+
+              <!--// ADDRESS SELECTOR-->
+              <div class="container-fluid">
+                <label for="input_address"> Address:</label>
+                <!--IMPORTANT working -->
+                <select name="address" id="input_address" class="form-control"
+                        data-ng-model="addressFilter"
+                        ng-options="category.address for category in awesomeRealEstates | unique:'address'">
+                </select>
+              </div>
+
+
+              <!--// BROKER SELECTOR-->
+              <div class="container-fluid">
+                <label for="input_broker"> Broker:</label>
+                <!--IMPORTANT working -->
+                <select name="broker" id="input_broker" class="form-control"
+                        data-ng-model="brokerFilter"
+                        ng-options="category.broker for category in awesomeRealEstates | unique:'broker'">
+                </select>
+              </div>
+
+
               <!--SLIDER AREA-->
               <br/>
               <div class="container-fluid">
                 <div class="well">
                   <label> Area range:</label>
-                  <slider floor="0" ceiling="5000" step="10"
+                  <slider floor="0" ceiling="250" step="10"
                           ng-model-low="lower_area_bound"
                           ng-model-high="upper_area_bound"></slider>
-                  Min: <strong>{{lower_area_bound}} m2 </strong>
+                  Min: <strong>{{(lower_area_bound | number:0) + " m2"}}  </strong>
                   &nbsp;
-                  Max: <strong>{{upper_area_bound}} m2 </strong>
+                  Max: <strong>{{(upper_area_bound | number:0) + " m2"}} m2 </strong>
                 </div>
               </div>
 
@@ -89,12 +102,12 @@
               <div class="container-fluid">
                 <div class="well">
                   <label> Price range:</label>
-                  <slider floor="0" ceiling="500000" step="100"
+                  <slider floor="0" ceiling="200000" step="100"
                           ng-model-low="lower_price_bound"
                           ng-model-high="upper_price_bound"></slider>
-                  Min: <strong>{{lower_price_bound}} € </strong>
+                  Min: <strong>{{( lower_price_bound | number:0) + " €"}} </strong>
                   &nbsp;
-                  Max: <strong>{{upper_price_bound}} € </strong>
+                  Max: <strong>{{( upper_price_bound | number:0) + " €"}} </strong>
                 </div>
 
                 Your results <span class="badge" id="badge-value">   founded : {{filteredResults.length}} </span>
@@ -128,7 +141,7 @@
               <tbody>
 
                 <tr
-                  ng-repeat="item in filteredResults = ( awesomeRealEstates | searchTypeFilter: catFilter | myTypeFilter: typeFilter | myAddressFilter: addressFilter |filter:priceRange | filter: areaRange)">
+                  ng-repeat="item in filteredResults = ( awesomeRealEstates | searchTypeFilter: catFilter | myTypeFilter: typeFilter | myAddressFilter: addressFilter | myBrokerFilter: brokerFilter | filter:priceRange | filter: areaRange)">
                   <td>{{item.search_type}}</td>
                   <td>{{item.type}}</td>
                   <td>{{item.address}}</td>

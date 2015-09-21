@@ -7,9 +7,9 @@ angular.module('imorestApp')
     // new things
 
     $scope.lower_price_bound = 0;
-    $scope.upper_price_bound = 500000;
+    $scope.upper_price_bound = 200000;
     $scope.lower_area_bound = 0;
-    $scope.upper_area_bound = 5000;
+    $scope.upper_area_bound = 250;
 
     $scope.awesomeRealEstates = [];
     // $scope.awesomeRealEstates[0].search_type = "for_sale";
@@ -86,6 +86,26 @@ angular.module('imorestApp')
     };
   });
 
+// type filter
+angular.module('imorestApp')
+  .filter('myTypeFilter', function () {
+    return function (items, myTypeFilter) {
+      var filteredByType = [];
+
+      for (var i = 0; i < items.length; i++) {
+        //console.log('items[i][type] = ' + items[i]['type']);
+        //console.log('myTypeFilter.type' + myTypeFilter.type);
+        var item = items[i];
+        if ((item['type']) == myTypeFilter.type) {
+          //console.log('test items[i] = ' + items[i]['type'] + 'items.length = ' + items.length);
+          //console.log('im in');
+          filteredByType.push(item);
+        }
+      }
+      return filteredByType;
+    };
+  });
+
 // address filter
 angular.module('imorestApp')
   .filter('myAddressFilter', function () {
@@ -109,23 +129,25 @@ angular.module('imorestApp')
 
 // type filter
 angular.module('imorestApp')
-  .filter('myTypeFilter', function () {
-    return function (items, myTypeFilter) {
-      var filteredByType = [];
+  .filter('myBrokerFilter', function () {
+    return function (items, myBrokerFilter) {
+      var filteredByBroker = [];
 
       for (var i = 0; i < items.length; i++) {
         //console.log('items[i][type] = ' + items[i]['type']);
         //console.log('myTypeFilter.type' + myTypeFilter.type);
         var item = items[i];
-        if ((item['type']) == myTypeFilter.type) {
+        if ((item['broker']) == myBrokerFilter.broker) {
           //console.log('test items[i] = ' + items[i]['type'] + 'items.length = ' + items.length);
           //console.log('im in');
-          filteredByType.push(item);
+          filteredByBroker.push(item);
         }
       }
-      return filteredByType;
+      return filteredByBroker;
     };
   });
+
+
 
 
 angular.module('imorestApp')
