@@ -1,16 +1,16 @@
 'use strict';
 
-describe('Controller: SearchWidgetCtrl', function () {
+describe('Controller: WidgetCtrl', function () {
 
   // load the controller's module
   beforeEach(module('imorestApp'));
 
-  var SearchWidgetCtrl, scope;
+  var WidgetCtrl, scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    SearchWidgetCtrl = $controller('SearchWidgetCtrl', {
+    WidgetCtrl = $controller('WidgetCtrl', {
       $scope: scope
     });
   }));

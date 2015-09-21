@@ -8,7 +8,7 @@ angular.module('imorestApp')
     },
       {
         'title': 'Search',
-        'link': '/search_widget'
+        'link': '/widget'
       }];
 
     $scope.isCollapsed = true;
