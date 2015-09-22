@@ -23,7 +23,7 @@ angular.module('imorestApp')
       $scope.catFilter = $scope.awesomeRealEstates[0]; // (define default search_type value for selector)
       $scope.typeFilter = $scope.awesomeRealEstates[0]; // (define default type value for selector)
       $scope.addressFilter = $scope.awesomeRealEstates[0]; // (define default adress value for selector)
-
+      $scope.brokerFilter = $scope.awesomeRealEstates[0]; // (define default broker value for selector)
 
 
       socket.syncUpdates('real_estate', $scope.awesomeRealEstates);
