@@ -7,7 +7,8 @@ angular.module('imorestApp', [
   'btford.socket-io',
   'ui.router',
   'ui.bootstrap',
-  'uiSlider'
+  'uiSlider',
+  'ngAnimate'
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
     $urlRouterProvider
