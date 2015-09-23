@@ -22,47 +22,47 @@
                class="navbar-collapse collapse sidebar-navbar-collapse">
             <ul class="nav navbar-nav">
 
-              <!--FILTERS SELECTORS-->
+              <!--DYNAMIC FILTERS SELECTORS-->
               <div id="filters">
                 <p class="section">Choose Filters:</p>
 
+                <!--SEARCH_TYPE FILTER-->
                 <p>Search Type:
-                  <select id="search_type-filter" class="form-control" ng-model="query.search_type">
+                  <select id="search_type-filter" class="form-control" ng-model="query"
+                    ng-options="item.search_type as item.search_type for item in awesomeRealEstates | unique:'search_type'">
                     <option value>All</option>
-                    <option value="for_sale">For Sale</option>
-                    <option value="for_rent">For Rent</option>
+                    <option ng-repeat="item in awesomeRealEstates | filter:{search_type:query}"></option>
                   </select>
                 </p>
 
+                <!--TYPE FILTER-->
                 <p>Type:
-                  <select id="type-filter" class="form-control" ng-model="query.type">
+                  <select id="type-filter" class="form-control" ng-model="query"
+                          ng-options="item.type as item.type for item in awesomeRealEstates | unique:'type'">
                     <option value>All</option>
-                    <option value="Apartment">Apartment</option>
-                    <option value="House">House</option>
-                    <option value="Warehouse">Warehouse</option>
+                    <option ng-repeat="item in awesomeRealEstates | filter:{type:query}"></option>
                   </select>
                 </p>
 
+                  <!--ADDRESS FILTER-->
                 <p>Address:
-                  <select id="address-filter" class="form-control" ng-model="query.address">
+                  <select id="address-filter" class="form-control" ng-model="query"
+                          ng-options="item.address as item.address for item in awesomeRealEstates | unique:'address'">
                     <option value>All</option>
-                    <option value="Porto">Porto</option>
-                    <option value="Braga">Braga</option>
-                    <option value="Matosinhos">Matosinhos</option>
-                    <option value="Coimbra">Coimbra</option>
+                    <option ng-repeat="item in awesomeRealEstates | filter:{address:query}"></option>
                   </select>
                 </p>
 
+                <!--BROKER FILTER-->
                 <p>Broker:
-                  <select id="broker-filter" class="form-control" ng-model="query.broker">
+                  <select id="broker-filter" class="form-control" ng-model="query"
+                          ng-options="item.broker as item.broker for item in awesomeRealEstates | unique:'broker'">
                     <option value>All</option>
-                    <option value="Jorge Leal">Jorge Leal</option>
-                    <option value="Carlos Narciso">Carlos Narciso</option>
-                    <option value="Celio Cerqueira">Celio Cerqueira</option>
-                    <option value="Vania Branco">Vania Branco</option>
+                    <option ng-repeat="item in awesomeRealEstates | filter:{broker:query}"></option>
                   </select>
                 </p>
 
+                <!--CLEAR FILTERS-->
                 <button id="clear-filter" class="btn btn-default form-control" ng-click="clearFilter()" type="button">
                   Clear Filter
                 </button>

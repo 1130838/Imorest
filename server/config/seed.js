@@ -20,7 +20,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_sale",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Coimbra",
           "broker": "Celio Cerqueira",
           "price": 134847,
@@ -110,7 +110,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_rent",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Matosinhos",
           "broker": "Vania Branco",
           "price": 69963,
@@ -137,7 +137,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_sale",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Porto",
           "broker": "Jorge Leal",
           "price": 147362,
@@ -146,7 +146,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_rent",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Coimbra",
           "broker": "Celio Cerqueira",
           "price": 27237,
@@ -173,7 +173,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_sale",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Braga",
           "broker": "Celio Cerqueira",
           "price": 30766,
@@ -191,7 +191,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_sale",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Matosinhos",
           "broker": "Celio Cerqueira",
           "price": 103904,
@@ -227,7 +227,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_rent",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Porto",
           "broker": "Celio Cerqueira",
           "price": 60256,
@@ -245,7 +245,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_sale",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Matosinhos",
           "broker": "Celio Cerqueira",
           "price": 27584,
@@ -326,7 +326,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_rent",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Coimbra",
           "broker": "Carlos Narciso",
           "price": 68758,
@@ -344,7 +344,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_sale",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Braga",
           "broker": "Celio Cerqueira",
           "price": 191027,
@@ -362,7 +362,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_sale",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Porto",
           "broker": "Vania Branco",
           "price": 189599,
@@ -389,7 +389,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_sale",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Porto",
           "broker": "Carlos Narciso",
           "price": 187065,
@@ -497,7 +497,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_sale",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Porto",
           "broker": "Carlos Narciso",
           "price": 158496,
@@ -515,7 +515,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_rent",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Matosinhos",
           "broker": "Jorge Leal",
           "price": 98355,
@@ -542,7 +542,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_rent",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Porto",
           "broker": "Carlos Narciso",
           "price": 140485,
@@ -596,7 +596,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_sale",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Coimbra",
           "broker": "Carlos Narciso",
           "price": 97117,
@@ -686,7 +686,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_rent",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Matosinhos",
           "broker": "Vania Branco",
           "price": 154124,
@@ -731,7 +731,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_rent",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Matosinhos",
           "broker": "Jorge Leal",
           "price": 37894,
@@ -785,7 +785,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_rent",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Coimbra",
           "broker": "Jorge Leal",
           "price": 85324,
@@ -812,7 +812,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_rent",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Braga",
           "broker": "Jorge Leal",
           "price": 192114,
@@ -848,7 +848,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_sale",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Porto",
           "broker": "Carlos Narciso",
           "price": 147999,
@@ -866,7 +866,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_sale",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Porto",
           "broker": "Jorge Leal",
           "price": 59286,
@@ -875,7 +875,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_sale",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Braga",
           "broker": "Carlos Narciso",
           "price": 125705,
@@ -902,7 +902,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_rent",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Coimbra",
           "broker": "Carlos Narciso",
           "price": 47738,
@@ -911,7 +911,7 @@ RealEstate.find({}).remove(function () {
         },
         {
           "search_type": "for_rent",
-          "type": "Warehouse",
+          "type": "Land",
           "address": "Coimbra",
           "broker": "Celio Cerqueira",
           "price": 86763,
@@ -947,7 +947,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 59020,
@@ -1028,7 +1028,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 41057,
@@ -1046,7 +1046,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 142005,
@@ -1091,7 +1091,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 83291,
@@ -1100,7 +1100,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 82360,
@@ -1118,7 +1118,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 91796,
@@ -1136,7 +1136,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 67483,
@@ -1154,7 +1154,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 37629,
@@ -1163,7 +1163,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 20274,
@@ -1208,7 +1208,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 132676,
@@ -1262,7 +1262,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 40820,
@@ -1289,7 +1289,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 12031,
@@ -1307,7 +1307,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 50591,
@@ -1334,7 +1334,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 151953,
@@ -1352,7 +1352,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Jorge Leal",
         "price": 146480,
@@ -1370,7 +1370,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 56578,
@@ -1397,7 +1397,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 81952,
@@ -1415,7 +1415,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 53525,
@@ -1424,7 +1424,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 53266,
@@ -1478,7 +1478,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Vania Branco",
         "price": 142021,
@@ -1487,7 +1487,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 109463,
@@ -1568,7 +1568,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 116886,
@@ -1577,7 +1577,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 185805,
@@ -1613,7 +1613,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 41448,
@@ -1649,7 +1649,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 104862,
@@ -1676,7 +1676,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Vania Branco",
         "price": 54420,
@@ -1685,7 +1685,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 181767,
@@ -1703,7 +1703,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 151227,
@@ -1748,7 +1748,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 118922,
@@ -1802,7 +1802,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 82258,
@@ -1838,7 +1838,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Jorge Leal",
         "price": 108145,
@@ -1901,7 +1901,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Jorge Leal",
         "price": 162060,
@@ -1910,7 +1910,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 19135,
@@ -1919,7 +1919,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 85387,
@@ -1937,7 +1937,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 78353,
@@ -1946,7 +1946,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 37111,
@@ -1955,7 +1955,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 1388,
@@ -1982,7 +1982,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 158593,
@@ -1991,7 +1991,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 81052,
@@ -2036,7 +2036,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 33204,
@@ -2045,7 +2045,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 154810,
@@ -2054,7 +2054,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 23930,
@@ -2072,7 +2072,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 94685,
@@ -2081,7 +2081,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 102148,
@@ -2117,7 +2117,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Jorge Leal",
         "price": 167588,
@@ -2126,7 +2126,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Carlos Narciso",
         "price": 50110,
@@ -2135,7 +2135,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 5180,
@@ -2162,7 +2162,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Jorge Leal",
         "price": 163069,
@@ -2171,7 +2171,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 31997,
@@ -2180,7 +2180,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 40164,
@@ -2189,7 +2189,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 113000,
@@ -2225,7 +2225,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 178071,
@@ -2234,7 +2234,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 187510,
@@ -2261,7 +2261,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 7641,
@@ -2279,7 +2279,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 18744,
@@ -2288,7 +2288,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 146828,
@@ -2324,7 +2324,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 199164,
@@ -2333,7 +2333,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 20734,
@@ -2342,7 +2342,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 174078,
@@ -2351,7 +2351,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 138509,
@@ -2360,7 +2360,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Vania Branco",
         "price": 130878,
@@ -2414,7 +2414,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 185820,
@@ -2441,7 +2441,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 182696,
@@ -2450,7 +2450,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 132171,
@@ -2459,7 +2459,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Vania Branco",
         "price": 61998,
@@ -2468,7 +2468,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 172447,
@@ -2495,7 +2495,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Carlos Narciso",
         "price": 168347,
@@ -2540,7 +2540,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Carlos Narciso",
         "price": 103619,
@@ -2558,7 +2558,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 349,
@@ -2585,7 +2585,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 181554,
@@ -2594,7 +2594,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Vania Branco",
         "price": 50700,
@@ -2666,7 +2666,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 76849,
@@ -2765,7 +2765,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 130401,
@@ -2783,7 +2783,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 53277,
@@ -2810,7 +2810,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Jorge Leal",
         "price": 192822,
@@ -2837,7 +2837,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Jorge Leal",
         "price": 34326,
@@ -2855,7 +2855,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 19223,
@@ -2873,7 +2873,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 13507,
@@ -2891,7 +2891,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 10263,
@@ -2963,7 +2963,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 15346,
@@ -2981,7 +2981,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 162989,
@@ -2999,7 +2999,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Jorge Leal",
         "price": 36129,
@@ -3026,7 +3026,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 4380,
@@ -3035,7 +3035,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 109088,
@@ -3080,7 +3080,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 136538,
@@ -3089,7 +3089,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 144736,
@@ -3107,7 +3107,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 33504,
@@ -3143,7 +3143,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 42330,
@@ -3170,7 +3170,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 49291,
@@ -3179,7 +3179,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 193610,
@@ -3197,7 +3197,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 8508,
@@ -3215,7 +3215,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 40966,
@@ -3260,7 +3260,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 66740,
@@ -3278,7 +3278,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 39681,
@@ -3332,7 +3332,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 100389,
@@ -3350,7 +3350,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 51805,
@@ -3359,7 +3359,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 17240,
@@ -3377,7 +3377,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 192617,
@@ -3386,7 +3386,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 190915,
@@ -3422,7 +3422,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 156874,
@@ -3449,7 +3449,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 90306,
@@ -3494,7 +3494,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 192580,
@@ -3512,7 +3512,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 38215,
@@ -3521,7 +3521,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 172293,
@@ -3548,7 +3548,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 84459,
@@ -3557,7 +3557,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 898,
@@ -3566,7 +3566,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 135344,
@@ -3593,7 +3593,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 96954,
@@ -3602,7 +3602,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 35271,
@@ -3611,7 +3611,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Carlos Narciso",
         "price": 61394,
@@ -3620,7 +3620,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 181310,
@@ -3638,7 +3638,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 25132,
@@ -3647,7 +3647,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 80777,
@@ -3674,7 +3674,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 60843,
@@ -3710,7 +3710,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 123564,
@@ -3719,7 +3719,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 50840,
@@ -3746,7 +3746,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 26970,
@@ -3755,7 +3755,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 113468,
@@ -3800,7 +3800,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 148290,
@@ -3872,7 +3872,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 49952,
@@ -3890,7 +3890,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 28545,
@@ -3926,7 +3926,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 175295,
@@ -3944,7 +3944,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Jorge Leal",
         "price": 186458,
@@ -3998,7 +3998,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 63300,
@@ -4007,7 +4007,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 104532,
@@ -4025,7 +4025,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 143843,
@@ -4034,7 +4034,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 91278,
@@ -4052,7 +4052,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 145444,
@@ -4061,7 +4061,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 188889,
@@ -4124,7 +4124,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Jorge Leal",
         "price": 194919,
@@ -4151,7 +4151,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 196430,
@@ -4169,7 +4169,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 55967,
@@ -4178,7 +4178,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 94646,
@@ -4187,7 +4187,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 191799,
@@ -4223,7 +4223,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 31241,
@@ -4250,7 +4250,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 55391,
@@ -4268,7 +4268,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 161547,
@@ -4277,7 +4277,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Carlos Narciso",
         "price": 197795,
@@ -4286,7 +4286,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 76183,
@@ -4358,7 +4358,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 61915,
@@ -4367,7 +4367,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 130978,
@@ -4385,7 +4385,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 118576,
@@ -4394,7 +4394,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Carlos Narciso",
         "price": 53678,
@@ -4403,7 +4403,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Carlos Narciso",
         "price": 179418,
@@ -4412,7 +4412,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 14629,
@@ -4421,7 +4421,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 136802,
@@ -4439,7 +4439,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 20156,
@@ -4448,7 +4448,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 47500,
@@ -4475,7 +4475,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 188493,
@@ -4493,7 +4493,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 188552,
@@ -4502,7 +4502,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 64405,
@@ -4520,7 +4520,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 145146,
@@ -4601,7 +4601,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 128645,
@@ -4610,7 +4610,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 104144,
@@ -4682,7 +4682,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 55129,
@@ -4700,7 +4700,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 83537,
@@ -4763,7 +4763,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 151141,
@@ -4790,7 +4790,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 65485,
@@ -4808,7 +4808,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 34962,
@@ -4817,7 +4817,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 14890,
@@ -4844,7 +4844,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 97528,
@@ -4853,7 +4853,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 20731,
@@ -4916,7 +4916,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 12370,
@@ -4943,7 +4943,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Jorge Leal",
         "price": 64733,
@@ -4961,7 +4961,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 118765,
@@ -5006,7 +5006,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 131449,
@@ -5015,7 +5015,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 75573,
@@ -5042,7 +5042,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 162336,
@@ -5069,7 +5069,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Vania Branco",
         "price": 97704,
@@ -5105,7 +5105,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 91252,
@@ -5114,7 +5114,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 164658,
@@ -5123,7 +5123,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 169382,
@@ -5141,7 +5141,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Jorge Leal",
         "price": 110993,
@@ -5150,7 +5150,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 183113,
@@ -5168,7 +5168,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 181701,
@@ -5186,7 +5186,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 97920,
@@ -5204,7 +5204,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 24593,
@@ -5222,7 +5222,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 161596,
@@ -5231,7 +5231,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Carlos Narciso",
         "price": 75280,
@@ -5249,7 +5249,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Vania Branco",
         "price": 144002,
@@ -5276,7 +5276,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 187354,
@@ -5294,7 +5294,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 47601,
@@ -5366,7 +5366,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 71475,
@@ -5402,7 +5402,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 154404,
@@ -5420,7 +5420,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 45838,
@@ -5429,7 +5429,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 178506,
@@ -5438,7 +5438,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Jorge Leal",
         "price": 17621,
@@ -5447,7 +5447,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Jorge Leal",
         "price": 117802,
@@ -5474,7 +5474,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 41519,
@@ -5483,7 +5483,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 10734,
@@ -5528,7 +5528,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 2600,
@@ -5546,7 +5546,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Vania Branco",
         "price": 94304,
@@ -5555,7 +5555,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 64794,
@@ -5573,7 +5573,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Vania Branco",
         "price": 128768,
@@ -5582,7 +5582,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 149412,
@@ -5636,7 +5636,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 138506,
@@ -5645,7 +5645,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 80925,
@@ -5699,7 +5699,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Jorge Leal",
         "price": 91608,
@@ -5726,7 +5726,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Carlos Narciso",
         "price": 4888,
@@ -5753,7 +5753,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 110820,
@@ -5771,7 +5771,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 179592,
@@ -5780,7 +5780,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 138163,
@@ -5789,7 +5789,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 78850,
@@ -5843,7 +5843,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 195024,
@@ -5888,7 +5888,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 6320,
@@ -5906,7 +5906,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 79691,
@@ -5933,7 +5933,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Carlos Narciso",
         "price": 6708,
@@ -5960,7 +5960,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 15097,
@@ -5987,7 +5987,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 55046,
@@ -5996,7 +5996,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 123171,
@@ -6032,7 +6032,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 35534,
@@ -6086,7 +6086,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 51188,
@@ -6095,7 +6095,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 154014,
@@ -6113,7 +6113,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 199860,
@@ -6122,7 +6122,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 83561,
@@ -6149,7 +6149,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 139884,
@@ -6167,7 +6167,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Carlos Narciso",
         "price": 70090,
@@ -6185,7 +6185,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 123773,
@@ -6194,7 +6194,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 80044,
@@ -6203,7 +6203,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Jorge Leal",
         "price": 67542,
@@ -6212,7 +6212,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 183381,
@@ -6284,7 +6284,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 57156,
@@ -6293,7 +6293,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 30818,
@@ -6302,7 +6302,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Carlos Narciso",
         "price": 74525,
@@ -6311,7 +6311,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 89907,
@@ -6338,7 +6338,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 67303,
@@ -6392,7 +6392,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 131856,
@@ -6437,7 +6437,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 199952,
@@ -6464,7 +6464,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 141866,
@@ -6491,7 +6491,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 74164,
@@ -6500,7 +6500,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 56392,
@@ -6527,7 +6527,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Jorge Leal",
         "price": 184382,
@@ -6536,7 +6536,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 136206,
@@ -6545,7 +6545,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 127356,
@@ -6563,7 +6563,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 176368,
@@ -6572,7 +6572,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Jorge Leal",
         "price": 25073,
@@ -6644,7 +6644,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 165633,
@@ -6662,7 +6662,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 43818,
@@ -6671,7 +6671,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Jorge Leal",
         "price": 66259,
@@ -6680,7 +6680,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 182113,
@@ -6707,7 +6707,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 53142,
@@ -6716,7 +6716,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 35739,
@@ -6752,7 +6752,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 119580,
@@ -6770,7 +6770,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 133119,
@@ -6788,7 +6788,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 114832,
@@ -6833,7 +6833,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 117062,
@@ -6842,7 +6842,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 147329,
@@ -6878,7 +6878,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 141306,
@@ -6887,7 +6887,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 154872,
@@ -6950,7 +6950,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 29153,
@@ -6986,7 +6986,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 48718,
@@ -7031,7 +7031,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 119180,
@@ -7049,7 +7049,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 67767,
@@ -7067,7 +7067,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Jorge Leal",
         "price": 195339,
@@ -7076,7 +7076,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 124757,
@@ -7085,7 +7085,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 84449,
@@ -7112,7 +7112,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 39961,
@@ -7157,7 +7157,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 189550,
@@ -7184,7 +7184,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Carlos Narciso",
         "price": 137805,
@@ -7256,7 +7256,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 34164,
@@ -7292,7 +7292,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 69123,
@@ -7301,7 +7301,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 41684,
@@ -7337,7 +7337,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 33175,
@@ -7346,7 +7346,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Jorge Leal",
         "price": 81995,
@@ -7382,7 +7382,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 102301,
@@ -7427,7 +7427,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 127029,
@@ -7454,7 +7454,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 120872,
@@ -7589,7 +7589,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 99505,
@@ -7598,7 +7598,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 153917,
@@ -7742,7 +7742,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 25172,
@@ -7823,7 +7823,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 50727,
@@ -7832,7 +7832,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 116186,
@@ -7850,7 +7850,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 189540,
@@ -7868,7 +7868,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 191609,
@@ -7904,7 +7904,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 108310,
@@ -7940,7 +7940,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 199962,
@@ -7949,7 +7949,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 30818,
@@ -7967,7 +7967,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Vania Branco",
         "price": 64933,
@@ -8120,7 +8120,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Jorge Leal",
         "price": 191784,
@@ -8138,7 +8138,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 147120,
@@ -8156,7 +8156,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 32591,
@@ -8183,7 +8183,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 155957,
@@ -8210,7 +8210,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 196213,
@@ -8246,7 +8246,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 123009,
@@ -8282,7 +8282,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 15830,
@@ -8309,7 +8309,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Jorge Leal",
         "price": 26504,
@@ -8363,7 +8363,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 6041,
@@ -8372,7 +8372,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 146190,
@@ -8381,7 +8381,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 22376,
@@ -8399,7 +8399,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Celio Cerqueira",
         "price": 144960,
@@ -8426,7 +8426,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 169369,
@@ -8462,7 +8462,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Jorge Leal",
         "price": 45612,
@@ -8525,7 +8525,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Jorge Leal",
         "price": 27447,
@@ -8543,7 +8543,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 27302,
@@ -8570,7 +8570,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Vania Branco",
         "price": 112771,
@@ -8579,7 +8579,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Vania Branco",
         "price": 177317,
@@ -8588,7 +8588,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Vania Branco",
         "price": 103758,
@@ -8615,7 +8615,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 8915,
@@ -8624,7 +8624,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Celio Cerqueira",
         "price": 171076,
@@ -8678,7 +8678,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 61768,
@@ -8687,7 +8687,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Porto",
         "broker": "Carlos Narciso",
         "price": 66603,
@@ -8705,7 +8705,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Braga",
         "broker": "Jorge Leal",
         "price": 52795,
@@ -8714,7 +8714,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 175976,
@@ -8723,7 +8723,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 85790,
@@ -8750,7 +8750,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Jorge Leal",
         "price": 124036,
@@ -8759,7 +8759,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 141083,
@@ -8777,7 +8777,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Celio Cerqueira",
         "price": 194368,
@@ -8804,7 +8804,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Celio Cerqueira",
         "price": 47982,
@@ -8813,7 +8813,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Jorge Leal",
         "price": 144237,
@@ -8840,7 +8840,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Jorge Leal",
         "price": 75666,
@@ -8876,7 +8876,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Carlos Narciso",
         "price": 121725,
@@ -8930,7 +8930,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_rent",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Carlos Narciso",
         "price": 22724,
@@ -8948,7 +8948,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Matosinhos",
         "broker": "Vania Branco",
         "price": 88527,
@@ -8966,7 +8966,7 @@ RealEstate.find({}).remove(function () {
       },
       {
         "search_type": "for_sale",
-        "type": "Warehouse",
+        "type": "Land",
         "address": "Coimbra",
         "broker": "Jorge Leal",
         "price": 132852,
