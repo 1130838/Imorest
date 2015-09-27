@@ -41,6 +41,14 @@ angular.module('imorestApp')
         $(my_row).slideDown(2000);
       });
 
+
+      $(function(){
+
+        $('.button-collapse').sideNav();
+        $('.parallax').parallax();
+
+      }); // end of document ready
+
     });
 
 

@@ -8,7 +8,8 @@ angular.module('imorestApp', [
   'ui.router',
   'ui.bootstrap',
   'uiSlider',
-  'ngAnimate'
+  'ngAnimate',
+  'ui.materialize'
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
     $urlRouterProvider
