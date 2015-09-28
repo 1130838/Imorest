@@ -9,6 +9,15 @@ RealEstate.find({}).remove(function () {
 
     //region Json Dummies
         [
+          {
+            "search_type": "for_sale",
+            "type": "House",
+            "address": "Porto",
+            "broker": "Bruno Devesa",
+            "price": 71364,
+            "area": 113,
+            "isActive": false
+          },
         {
           "search_type": "for_sale",
           "type": "House",

@@ -28,7 +28,7 @@ angular.module('imorestApp')
       $scope.predicate = 'search_type';
       $scope.clearFilter = function () {
         console.log("xxx");
-        $scope.query = '';
+        $scope.query = {};
       };
 
       socket.syncUpdates('real_estate', $scope.awesomeRealEstates);
@@ -124,7 +124,7 @@ angular.module('imorestApp')
 
 
     // dropdown settings
-    $('.dropdown-button').dropdown({
+ /*   $('.dropdown-button').dropdown({
         inDuration: 300,
         outDuration: 225,
         constrain_width: false, // Does not change width of dropdown to that of the activator
@@ -134,7 +134,7 @@ angular.module('imorestApp')
         alignment: 'center' // Displays dropdown with edge aligned to the left of button
       }
     );
-
+*/
     // jquery plugin init
     var options = [
       {selector: '.class', offset: 200, callback: 'globalFunction()'},

@@ -10,8 +10,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
 
-
-
 <div ng-include="'components/navbar/navbar.html'"></div>
 
 <p></p>
@@ -38,83 +36,67 @@
 
               <!--DYNAMIC FILTERS SELECTORS-->
 
-              <!--<div id="filters">-->
-                <!--<p class="section"></p>-->
-
-                <!--SEARCH_TYPE FILTER-->
-                <p><b>Searching type:</b></p>
-                <select id="search_type-filter" ng-model="query"
-                        ng-options="item.search_type as item.search_type for item in awesomeRealEstates | unique:'search_type'"
-                        material-select watch>
-                  <option value>All</option>
-                  <option ng-repeat="item in awesomeRealEstates | filter:{search_type:query}"></option>
-                </select>
+              <!--SEARCH_TYPE FILTER-->
+              <p><b>Searching type:</b></p>
+              <select id="search_type-filter" ng-model="query.search_type"
+                      ng-options="item.search_type as item.search_type for item in awesomeRealEstates | unique:'search_type'"
+                      material-select watch>
+                <option value>All</option>
+                <option ng-repeat="item in awesomeRealEstates | filter:{search_type:query}"></option>
+              </select>
 
 
-                <!--TYPE FILTER-->
-                <p><b>Type:</b></p>
-                <!--<p class="md-title"></p>-->
-                <select id="type-filter" ng-model="query"
-                        ng-options="item.type as item.type for item in awesomeRealEstates | unique:'type'"
-                        material-select watch>
-                  <option value>All</option>
-                  <option ng-repeat="item in awesomeRealEstates | filter:{type:query}"></option>
-                </select>
+              <!--TYPE FILTER-->
+              <p><b>Type:</b></p>
+              <!--<p class="md-title"></p>-->
+              <select id="type-filter" ng-model="query.type"
+                      ng-options="item.type as item.type for item in awesomeRealEstates | unique:'type'"
+                      material-select watch>
+                <option value>All</option>
+                <option ng-repeat="item in awesomeRealEstates | filter:{type:query}"></option>
+              </select>
+
+              <!--ADDRESS FILTER-->
+              <p><b>Address:</b></p>
+              <select id="address-filter" class="" ng-model="query.address"
+                      ng-options="item.address as item.address for item in awesomeRealEstates | unique:'address'"
+                      material-select watch>
+                <option value>All</option>
+                <option ng-repeat="item in awesomeRealEstates | filter:{address:query}"></option>
+              </select>
+
+              <!--BROKER FILTER-->
+              <p><b>Broker:</b></p>
+              <select id="broker-filter" class="" ng-model="query.broker"
+                      ng-options="item.broker as item.broker for item in awesomeRealEstates | unique:'broker'"
+                      material-select watch>
+                <option value>All</option>
+                <option ng-repeat="item in awesomeRealEstates | filter:{broker:query}"></option>
+              </select>
 
 
-                <!--ADDRESS FILTER-->
-                <p><b>Address:</b></p>
-                <select id="address-filter" class="" ng-model="query"
-                        ng-options="item.address as item.address for item in awesomeRealEstates | unique:'address'"
-                        material-select watch>
-                  <option value>All</option>
-                  <option ng-repeat="item in awesomeRealEstates | filter:{address:query}"></option>
-                </select>
+              <!--CLEAR FILTERS-->
+              <div class="center-align">
+                <a class="waves-effect waves-light btn" ng-click="clearFilter()"><i
+                  class="material-icons right">autorenew</i>Clear Filters</a>
+              </div>
 
-
-                <!--BROKER FILTER-->
-                <p><b>Broker:</b></p>
-                <select id="broker-filter" class="" ng-model="query"
-                        ng-options="item.broker as item.broker for item in awesomeRealEstates | unique:'broker'"
-                        material-select watch>
-                  <option value>All</option>
-                  <option ng-repeat="item in awesomeRealEstates | filter:{broker:query}"></option>
-                </select>
-
-
-                <!--CLEAR FILTERS-->
-                <div class="center-align">
-                  <a class="waves-effect waves-light btn" ng-click="clearFilter()"><i
-                    class="material-icons right">autorenew</i>Clear Filters</a>
-                </div>
-              <!--</div>-->
-
-
-              <!--SLIDER SURFACE-->
               <br/>
-
-
-              <!--<div class="container-fluid">-->
-                <label> Area range:</label>
-                <angular-ranger min="0" max="250" step="1" min-value="lower_area_bound"
-                                max-value="upper_area_bound"></angular-ranger>
-                Min: <strong>{{(lower_area_bound | number:0) + " m2"}} </strong>
-                &nbsp;
-                Max: <strong>{{(upper_area_bound | number:0) + " m2"}} </strong>
-              <!--</div>-->
-
+              <!--SLIDER SURFACE-->
+              <label> Area range:</label>
+              <angular-ranger min="0" max="250" step="1" min-value="lower_area_bound"
+                              max-value="upper_area_bound"></angular-ranger>
+              Min: <strong>{{(lower_area_bound | number:0) + " m2"}} </strong>
+              &nbsp;
+              Max: <strong>{{(upper_area_bound | number:0) + " m2"}} </strong>
 
 
               <!--SLIDER PRICE-->
-              <!--<div class="container-fluid">-->
-                <label> Price range:</label>
-                <angular-ranger min="0" max="200000" step="1000" min-value="lower_price_bound"
-                                max-value="upper_price_bound"></angular-ranger>
-                <p>Min: <strong>{{( lower_price_bound | number:0) + " €"}} </strong>&nbsp;
+              <label> Price range:</label>
+              <angular-ranger min="0" max="200000" step="1000" min-value="lower_price_bound"
+                              max-value="upper_price_bound"></angular-ranger>
+              <p>Min: <strong>{{( lower_price_bound | number:0) + " €"}} </strong>&nbsp;
                 Max: <strong>{{( upper_price_bound | number:0) + " €"}} </strong></p>
-              <!--</div>-->
-
-
 
 
               <div class="row">
@@ -157,7 +139,7 @@
 
             <tbody>
               <tr
-                ng-repeat="item in filteredResults =( awesomeRealEstates | orderBy:predicate | filter:query || undefined | filter:priceRange | filter: areaRange)">
+                ng-repeat="item in filteredResults =( awesomeRealEstates | orderBy:predicate | filter:query.search_type  || undefined | filter:query.type  || undefined | filter:query.address  || undefined| filter:query.broker  || undefined | filter:priceRange | filter: areaRange)">
                 <td>{{item.search_type}}</td>
                 <td>{{item.type}}</td>
                 <td>{{item.address}}</td>
@@ -176,12 +158,6 @@
   </div>
 </div>
 
-
-<!--===========-->
-
-<!--NOui SLIDER-->
-
-<!--<script src="widget/external_sources/noUiSlider.8.0.2/nouislider.min.js"></script>-->
 
 
 <script src="../bower_components/angular-animate/angular-animate.js"></script>
