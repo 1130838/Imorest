@@ -9,7 +9,9 @@ angular.module('imorestApp', [
   'ui.bootstrap',
   'uiSlider',
   'ngAnimate',
-  'ui.materialize'
+  'ngMaterial',
+  'ui.materialize',
+  'angular-ranger'
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
     $urlRouterProvider

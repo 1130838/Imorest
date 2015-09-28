@@ -76,7 +76,7 @@ slider span.bubble {
   top: -22px;
   padding: 1px 3px 1px 3px;
   font-size: 0.7em;
-  font-family: sans-serif;
+  font-family: 'Roboto', serif;
 }
 slider span.bubble.selection {
   top: 15px;

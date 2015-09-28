@@ -9,6 +9,10 @@ angular.module('imorestApp')
       {
         'title': 'Search',
         'link': '/widget'
+      },
+      {
+        'title': 'slide',
+        'link': '/slide'
       }];
 
     $scope.isCollapsed = true;
