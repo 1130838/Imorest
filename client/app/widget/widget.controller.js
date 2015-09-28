@@ -28,7 +28,7 @@ angular.module('imorestApp')
       $scope.predicate = 'search_type';
       $scope.clearFilter = function () {
         console.log("xxx");
-        $scope.query = {};
+        $scope.query = [];
       };
 
       socket.syncUpdates('real_estate', $scope.awesomeRealEstates);

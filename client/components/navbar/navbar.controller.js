@@ -11,8 +11,8 @@ angular.module('imorestApp')
         'link': '/widget'
       },
       {
-        'title': 'slide',
-        'link': '/slide'
+        'title': 'flex',
+        'link': '/flex'
       }];
 
     $scope.isCollapsed = true;

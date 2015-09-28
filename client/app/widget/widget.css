@@ -19,3 +19,10 @@
 .sliderdemoBasicUsage input[type="number"] {
   text-align: center;
   padding-left: 10px; }
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}

@@ -1,8 +1,8 @@
 slider {
   display: inline-block;
   position: relative;
-  height: 7px;
-  width: 100%;
+  height: 2px;
+  width: 50%;
   margin: 25px 5px 25px 5px;
   vertical-align: middle;
 }
@@ -17,11 +17,11 @@ slider span.base {
   padding: 0;
 }
 slider span.bar {
-  width: 100%;
-  height: 100%;
+  width: 20%;
+  height: 20%;
   z-index: 0;
-  -webkit-border-radius: 1em/1em;
-  border-radius: 1em/1em;
+  -webkit-border-radius: 4em/4em;
+  border-radius: 30em/30em;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #c0c0c0), color-stop(1, #8d8d8d));
   background: -webkit-linear-gradient(top, #c0c0c0 0, #8d8d8d 100%);
   background: -moz-linear-gradient(top, #c0c0c0 0, #8d8d8d 100%);
@@ -32,7 +32,7 @@ slider span.bar {
   box-shadow: inset 2px 2px 5px;
 }
 slider span.bar.selection {
-  width: 0%;
+  width: 2%;
   z-index: 1;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #13b6ff), color-stop(1, #00a8f3));
   background: -webkit-linear-gradient(top, #13b6ff 0, #00a8f3 100%);
@@ -45,23 +45,23 @@ slider span.bar.selection {
 }
 slider span.pointer {
   cursor: pointer;
-  width: 20px;
-  height: 20px;
-  top: -8px;
-  background-color: #fff;
+  width: 1px;
+  height: 1px;
+  top: -1px;
+  background-color: red;
   border: 1px solid #000;
-  z-index: 2;
+  z-index: 1;
   -webkit-border-radius: 1em/1em;
   border-radius: 1em/1em;
 }
 slider span.pointer:after {
   content: '';
   background-color: #808080;
-  width: 8px;
-  height: 8px;
+  width: 1px;
+  height: 1px;
   position: absolute;
-  top: 6px;
-  left: 6px;
+  top: 1px;
+  left: 1px;
   -webkit-border-radius: 1em/1em;
   border-radius: 1em/1em;
 }
@@ -73,13 +73,13 @@ slider span.pointer.active:after {
 }
 slider span.bubble {
   cursor: default;
-  top: -22px;
-  padding: 1px 3px 1px 3px;
+  top: -2px;
+  padding: 1px 1px 1px 1px;
   font-size: 0.7em;
   font-family: 'Roboto', serif;
 }
 slider span.bubble.selection {
-  top: 15px;
+  top: 1px;
 }
 slider span.bubble.limit {
   color: #808080;
