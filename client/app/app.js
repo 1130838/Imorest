@@ -7,7 +7,6 @@ angular.module('imorestApp', [
   'btford.socket-io',
   'ui.router',
   'ui.bootstrap',
-  'uiSlider',
   'ngAnimate',
   'ngMaterial',
   'ui.materialize',
