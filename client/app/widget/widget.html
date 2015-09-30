@@ -25,10 +25,16 @@
               <!--SEARCH_TYPE FILTER-->
               <p><b>Searching type:</b></p>
               <select id="search_type-filter" ng-model="query.search_type"
-                      ng-options="item.search_type as item.search_type for item in awesomeRealEstates | unique:'search_type'"
+                      ng-options="item.search_type as item.search_type for item in awesomeRealEstates
+                      | filter:{type:query.type || undefined}
+                      | filter:{address:query.address || undefined}
+                      | filter:{broker:query.broker || undefined}
+                      | filter:priceRange || undefined
+                      | filter:areaRange || undefined
+                      | unique:'search_type' || undefined "
                       material-select watch>
                 <option value>All</option>
-                <option ng-repeat="item in awesomeRealEstates | filter:{search_type:query}"></option>
+                <option ng-repeat="item in awesomeRealEstates| filter:{search_type:query} || undefined  "></option>
               </select>
 
 
@@ -36,7 +42,13 @@
               <p><b>Type:</b></p>
               <!--<p class="md-title"></p>-->
               <select id="type-filter" ng-model="query.type"
-                      ng-options="item.type as item.type for item in awesomeRealEstates | unique:'type'"
+                      ng-options="item.type as item.type for item in awesomeRealEstates
+                      | filter:{search_type:query.search_type || undefined}
+                      | filter:{address:query.address || undefined}
+                      | filter:{broker:query.broker || undefined}
+                      | filter:priceRange
+                      | filter:areaRange
+                      | unique:'type' "
                       material-select watch>
                 <option value>All</option>
                 <option ng-repeat="item in awesomeRealEstates | filter:{type:query}"></option>
@@ -46,7 +58,13 @@
               <!--ADDRESS FILTER-->
               <p><b>Address:</b></p>
               <select id="address-filter" class="" ng-model="query.address"
-                      ng-options="item.address as item.address for item in awesomeRealEstates | unique:'address'"
+                      ng-options="item.address as item.address for item in awesomeRealEstates
+                      | filter:{search_type:query.search_type || undefined}
+                      | filter:{type:query.type || undefined}
+                      | filter:{broker:query.broker || undefined}
+                      | filter:priceRange
+                      | filter:areaRange
+                      | unique:'address'"
                       material-select watch>
                 <option value>All</option>
                 <option ng-repeat="item in awesomeRealEstates | filter:{address:query}"></option>
@@ -56,7 +74,13 @@
               <!--BROKER FILTER-->
               <p><b>Broker:</b></p>
               <select id="broker-filter" class="" ng-model="query.broker"
-                      ng-options="item.broker as item.broker for item in awesomeRealEstates | unique:'broker'"
+                      ng-options="item.broker as item.broker for item in awesomeRealEstates
+                      | filter:{search_type:query.search_type || undefined}
+                      | filter:{type:query.type || undefined}
+                      | filter:{address:query.address || undefined}
+                      | filter:priceRange
+                      | filter:areaRange
+                      | unique:'broker'"
                       material-select watch>
                 <option value>All</option>
                 <option ng-repeat="item in awesomeRealEstates | filter:{broker:query}"></option>
@@ -103,53 +127,54 @@
               <div class="center-align">
                 <a class="waves-light btn-large"><i
                   class="material-icons right">done</i>{{filteredResults.length}} results</a>
+
                 <p></p>
               </div>
 
-          </ul>
+            </ul>
+          </div>
+          <!--/.nav-collapse -->
         </div>
-        <!--/.nav-collapse -->
       </div>
     </div>
-  </div>
 
 
-  <!--table materialize-->
-  <div class="row">
-    <div class="col-sm-7">
-      <div id="products">
-        <table class="highlight centered">
-          <thead>
-            <tr>
-              <th data-field="search">Search</th>
-              <th data-field="tyoe">Type</th>
-              <th data-field="address">Adress</th>
-              <th data-field="broker">Broker</th>
-              <th data-field="area"><a href="" ng-click='predicate="area"'>Surface(m2)</a></th>
-              <th data-field="price"><a href="" ng-click='predicate="price"'>Price(€)</a></th>
-              <th>Gallery</th>
-            </tr>
-          </thead>
+    <!--table materialize-->
+    <div class="row">
+      <div class="col-sm-7">
+        <div style="height:700px;overflow:auto;">
+          <table class="responsive-table">
+            <thead>
+              <tr>
+                <th data-field="search">Search</th>
+                <th data-field="tyoe">Type</th>
+                <th data-field="address">Adress</th>
+                <th data-field="broker">Broker</th>
+                <th data-field="area"><a href="" ng-click='predicate="area"'>Surface(m2)</a></th>
+                <th data-field="price"><a href="" ng-click='predicate="price"'>Price(€)</a></th>
+                <th>Gallery</th>
+              </tr>
+            </thead>
 
-          <tbody>
-            <tr
-              ng-repeat="item in filteredResults =( awesomeRealEstates | orderBy:predicate | filter:query.search_type  || undefined | filter:query.type  || undefined | filter:query.address  || undefined| filter:query.broker  || undefined | filter:priceRange | filter: areaRange)">
-              <td>{{item.search_type}}</td>
-              <td>{{item.type}}</td>
-              <td>{{item.address}}</td>
-              <td> {{item.broker}}</td>
-              <td> {{item.area}}</td>
-              <td> {{item.price}}</td>
-              <td><a href="">View Gallery</a></td>
-            </tr>
-          </tbody>
-        </table>
+            <tbody>
+              <tr
+                ng-repeat="item in filteredResults =( awesomeRealEstates | orderBy:predicate | filter:query.search_type  || undefined | filter:query.type  || undefined | filter:query.address  || undefined| filter:query.broker  || undefined | filter:priceRange | filter: areaRange)">
+                <td>{{item.search_type}}</td>
+                <td>{{item.type}}</td>
+                <td>{{item.address}}</td>
+                <td> {{item.broker}}</td>
+                <td> {{item.area}}</td>
+                <td> {{item.price}}</td>
+                <td><a href="">View Gallery</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
+
+
   </div>
-
-
-</div>
 </div>
 
 

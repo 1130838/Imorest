@@ -63,7 +63,7 @@ angular.module('imorestApp')
 
 
       // Materialize.toast(message, displayLength, className, completeCallback);
-      Materialize.toast('Loading results.. ', 4000) // 4000 is the duration of the toast
+      Materialize.toast('Loading results.. ', 2000); // 2000 is the duration of the toast
 
    /*   $('select').material_select();
       $('select').material_select('destroy');*/

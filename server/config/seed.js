@@ -12,6 +12,15 @@ RealEstate.find({}).remove(function () {
           {
             "search_type": "for_sale",
             "type": "House",
+            "address": "Amarante",
+            "broker": "Bruno Devesa",
+            "price": 5,
+            "area": 113,
+            "isActive": false
+          },
+          {
+            "search_type": "for_sale",
+            "type": "House",
             "address": "Porto",
             "broker": "Bruno Devesa",
             "price": 71364,
